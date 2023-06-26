@@ -2,5 +2,5 @@
 # m represents mass (measured in kilograms)
 # c represents the speed of light (measured approximately as 300000000 meters per second)
 m = int(input("m: "))
-E = m * (300000000 * 300000000)
+E = m * (pow(300000000, 2))
 print(f"E: {E}")
